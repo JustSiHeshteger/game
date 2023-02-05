@@ -2490,6 +2490,7 @@ GameObject:
   - component: {fileID: 1831260828}
   - component: {fileID: 1831260830}
   - component: {fileID: 1831260829}
+  - component: {fileID: 1831260831}
   m_Layer: 0
   m_Name: Leg_left
   m_TagString: Untagged
@@ -2625,6 +2626,18 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &1831260831
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1831260827}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: deaabf4edb1810a4988ba128e38cc02d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1958140985
 GameObject:
   m_ObjectHideFlags: 0
